@@ -3,7 +3,6 @@ Question 3: Employment Salary Analysis
 --------------------------------------
 Retrieve employees who earn a higher salary than the average 
 salary in their respective departments.
-Output Columns: FirstName | LastName | DepartmentName | Salary
 */
 
 SELECT 
