@@ -3,7 +3,6 @@ Question 1: MYSQL - Scheduling Errors
 -------------------------------------
 Display the year in ascending order and find, for each semester, 
 how many professors are involved in delivering the session for courses 1 to 10.
-Output Columns: year | semester | no_of_professor
 */
 
 SELECT 
