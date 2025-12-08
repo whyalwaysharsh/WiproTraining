@@ -434,13 +434,6 @@ Capstone Project
 └── frontend\\
 
    ├── login.html
-   ├── login.html
-   ├── login.html
-   ├── login.html
-   ├── login.html
-   ├── login.html
-   ├── login.html
-   ├── login.html
    ├── index.html
    ├── register.html
    ├── admin-login.html
@@ -459,3 +452,4 @@ Capstone Project
        ├── cart.js
        ├── orders.js
        └── billing.js
+
