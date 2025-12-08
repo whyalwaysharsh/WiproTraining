@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Pizza Palace</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍕 Pizza Palace</h1>
+            <nav id="mainNav">
+                <!-- Navigation will be dynamically loaded -->
+            </nav>
+        </header>
+
+        <main>
+            <h2>Our Menu</h2>
+            
+            <div class="menu-filters">
+                <button class="filter-btn active" onclick="filterMenu('all')">All</button>
+                <button class="filter-btn" onclick="filterMenu('Pizza')">Pizza</button>
+                <button class="filter-btn" onclick="filterMenu('Sides')">Sides</button>
+                <button class="filter-btn" onclick="filterMenu('Beverages')">Beverages</button>
+                <button class="filter-btn" onclick="filterMenu('Desserts')">Desserts</button>
+            </div>
+
+            <div id="menuItems" class="menu-grid">
+                <p>Loading menu...</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Pizza Palace. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>

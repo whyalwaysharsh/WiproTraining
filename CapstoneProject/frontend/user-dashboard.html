@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard - Pizza Palace</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍕 Pizza Palace</h1>
+            <nav>
+                <a href="user-dashboard.html">Dashboard</a>
+                <a href="menu.html">Menu</a>
+                <a href="cart.html">Cart <span id="cartCount" class="badge">0</span></a>
+                <a href="orders.html">My Orders</a>
+                <button id="logoutBtn" class="btn btn-small">Logout</button>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Welcome, <span id="userName">User</span>!</h2>
+            
+            <section class="dashboard-stats">
+                <div class="stat-card">
+                    <h3>Total Orders</h3>
+                    <p class="stat-number" id="totalOrders">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Pending Orders</h3>
+                    <p class="stat-number" id="pendingOrders">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Unread Notifications</h3>
+                    <p class="stat-number" id="unreadNotifications">0</p>
+                </div>
+            </section>
+
+            <section class="quick-actions">
+                <h3>Quick Actions</h3>
+                <div class="action-buttons">
+                    <a href="menu.html" class="btn btn-primary">Browse Menu</a>
+                    <a href="orders.html" class="btn btn-secondary">View Orders</a>
+                </div>
+            </section>
+
+            <section class="recent-orders">
+                <h3>Recent Orders</h3>
+                <div id="recentOrdersList">Loading...</div>
+            </section>
+
+            <section class="notifications-section">
+                <h3>Recent Notifications</h3>
+                <div id="notificationsList">Loading...</div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Pizza Palace. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

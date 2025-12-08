@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Pizza Palace</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍕 Pizza Palace</h1>
+        </header>
+
+        <main class="auth-content">
+            <div class="auth-card">
+                <h2>Register</h2>
+                <form id="registerForm">
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <textarea id="address" name="address" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Register</button>
+                    <div class="error-message" id="errorMessage"></div>
+                </form>
+                <p class="auth-link">Already have an account? <a href="login.html">Login here</a></p>
+                <p class="auth-link"><a href="index.html">Back to Home</a></p>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Pizza Palace. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="js/auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Flowers School</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="https://cdn-icons-png.flaticon.com/512/2995/2995650.png" alt="School Logo" class="logo">
+        <h1>Spring Flowers School</h1>
+
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Admissions</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Welcome Section -->
+    <section class="welcome">
+        <h2>Welcome to the Student Management System</h2>
+        <p>Manage student information and academic details efficiently using this online platform.</p>
+        <button onclick="showProfile()">View Student Profile</button>
+    </section>
+
+    <!-- Student Profile Section -->
+    <section class="profile" id="profileSection">
+        <h2>Student Profile</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <td>Harsh Chauhan</td>
+            </tr>
+            <tr>
+                <th>Class</th>
+                <td>10th Grade</td>
+            </tr>
+            <tr>
+                <th>Roll No</th>
+                <td>23</td>
+            </tr>
+            <tr>
+                <th>Section</th>
+                <td>A</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>harsh.chauhan@springflowers.edu</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Spring Flowers School | All Rights Reserved</p>
+    </footer>
+
+    <!-- Script -->
+    <script>
+        function showProfile() {
+            document.getElementById("profileSection").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
